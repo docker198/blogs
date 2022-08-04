@@ -127,3 +127,6 @@ maven shade 插件，基本在开发过程中很少使用过。但是，在之�
 ![Alt text](images/maven_shade_result.png)
 
 通过代码，最终生产的 POM.xml 文件如上图所示
+
+# **结论**
+- 使用起来还是蛮简单的！
