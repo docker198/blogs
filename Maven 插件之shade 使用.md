@@ -52,7 +52,7 @@ maven shade 插件，基本在开发过程中很少使用过。但是，在之�
 # **代码实现**
 
 ```java
-   public void addPluginToPublishModulePom(String publishModulePomPath) {
+    public void addPluginToPublishModulePom(String publishModulePomPath) {
         try {
             FileInputStream fis = new FileInputStream(new File(publishModulePomPath));
             MavenXpp3Reader reader = new MavenXpp3Reader();
@@ -116,9 +116,19 @@ maven shade 插件，基本在开发过程中很少使用过。但是，在之�
         final Xpp3Dom includes = new Xpp3Dom("includes");
         artifactSet.addChild(includes);
         String packagePrefixString = ConfigService.getAppConfig().getProperty("maven.shade.plugin", "[]");
-        List<String> packagePrefixList = JSON.parseArray(packagePrefixString, String.class);        // 做一些过滤，减少包的大小         if (CollectionUtils.isNotEmpty(packagePrefixList)) {             packagePrefixList.stream().forEach(packagePrefix -> {                 final Xpp3Dom packagePrefixDom = new Xpp3Dom("include");                 packagePrefixDom.setValue(packagePrefix + ".*:*");                 includes.addChild(packagePrefixDom);             });         }         mavenShadePlugin.setConfiguration(mavenPluginConfiguration);         model.getBuild().getPlugins().add(mavenShadePlugin);     }
-
+        List<String> packagePrefixList = JSON.parseArray(packagePrefixString, String.class);        // 做一些过滤，减少包的大小         
+        if (CollectionUtils.isNotEmpty(packagePrefixList)) {
+            packagePrefixList.stream().forEach(packagePrefix -> {
+                final Xpp3Dom packagePrefixDom = new Xpp3Dom("include");
+                packagePrefixDom.setValue(packagePrefix + ".*:*");
+                includes.addChild(packagePrefixDom);
+            });
+        }
+        mavenShadePlugin.setConfiguration(mavenPluginConfiguration);
+        model.getBuild().getPlugins().add(mavenShadePlugin);
     }
+
+}
 ```
 
 
