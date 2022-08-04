@@ -19,10 +19,10 @@ maven shade 插件，基本在开发过程中很少使用过。但是，在之�
 
 # **效果**
 
-![image](file:///images/xiaogo.png)
+![Alt text](images/xiaoguo.png)
 执行 shade 命令后，所有的依赖，都打到一个 JAR 里面。
 
-[images/jar_all.png](images/jar_all.png)
+![Alt text](images/jar_all.png)
 执行 shade 命令后，打包后的 JAR ，解压缩的如上图。
 
 ---
@@ -124,6 +124,6 @@ maven shade 插件，基本在开发过程中很少使用过。但是，在之�
 
 # **最终效果**
 
-[images/maven_shade_result.png](images/maven_shade_result.png)
+![Alt text](images/maven_shade_result.png)
 
 通过代码，最终生产的 POM.xml 文件如上图所示
