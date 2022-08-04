@@ -19,8 +19,7 @@ maven shade 插件，基本在开发过程中很少使用过。但是，在之�
 
 # **效果**
 
-[images/xiaoguo.png](images/xiaoguo.png)
-
+![image](file:///images/xiaogo.png)
 执行 shade 命令后，所有的依赖，都打到一个 JAR 里面。
 
 [images/jar_all.png](images/jar_all.png)
