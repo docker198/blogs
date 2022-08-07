@@ -20,5 +20,7 @@
    [DataX源码分析五之JobContainer详解.md](DataX源码分析五之JobContainer详解.md) 
 
    [DataX源码分析六之Task分配过程.md](DataX源码分析六之Task分配过程.md) 
+   
+   [DataX源码分析七之插件加载原理.md](DataX源码分析七之插件加载原理.md) 
   
   
