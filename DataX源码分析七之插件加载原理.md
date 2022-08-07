@@ -127,7 +127,8 @@ DataX 插件打包后，如上图所示
 
 ```java
 // 这里先把这个 Job 配置缓存起来，后面根据 plugin.json 的信息，反射生成插件实例。这里是完整的信息了，包含了插件的具体的路径了。
-//代码入口时：com.alibaba.datax.core.Engine#startLoadUtil.bind(allConf);
+//代码入口时：
+com.alibaba.datax.core.Engine#startLoadUtil.bind(allConf);
 ```
 
 ### **最后一大步：初始化插件**
