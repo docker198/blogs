@@ -36,5 +36,7 @@
    
    
    [DataX源码分析十三之Writer拉取数据.md](DataX源码分析十三之Writer拉取数据.md) 
+   
+   [DataX源码分析十五之DataXWeb化过程.md](DataX源码分析十五之DataXWeb化过程.md) 
   
   
