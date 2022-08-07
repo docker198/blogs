@@ -29,5 +29,7 @@
    [DataX源码分析九至Task初始化.md](DataX源码分析九至Task初始化.md) 
    
    [DataX源码分析十之Transformer源码分析.md](DataX源码分析十之Transformer源码分析.md) 
+   
+   [DataX源码分析十一之Runner启动前奏.md](DataX源码分析十一之Runner启动前奏.md) 
   
   
