@@ -40,7 +40,8 @@ public class SimpleBatchProducer {
      * @throws RemotingException    * @throws MQBrokerException
      * @throws InterruptedException
      */
-    @Overridepublic
+    @Override 
+    public
     SendResult send(Collection<Message> msgs) throws
             MQClientException, RemotingException, MQBrokerException, InterruptedException {
         return this.defaultMQProducerImpl.send(batch(msgs));
