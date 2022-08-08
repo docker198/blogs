@@ -148,7 +148,7 @@ pluginCollector = ClassUtil.instantiate(taskCollectorClass, AbstractTaskPluginCo
 
 ```
 
-![Alt text](images/datax_09_01.png)
+![Alt text](../images/datax_09_01.png)
 DataX中的脏数据 收集插件
 
 # **未完待续**

@@ -32,7 +32,7 @@ this.readerThread.start();
 > AbstractRunner 是 ReaderRuner、WriterRunner 的 abstract 类。类的继承图如下所示。
 > 
 
-![Alt text](images/datax_11_01.png)
+![Alt text](../images/datax_11_01.png)
 AbstractRunner 的继承关系图谱
 
 ## **Runner 启动**

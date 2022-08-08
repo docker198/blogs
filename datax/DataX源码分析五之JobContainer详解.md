@@ -12,7 +12,7 @@
 
 ## **2、继承关系**
 
-![Alt text](images/datax_05_01.png)
+![Alt text](../images/datax_05_01.png)
 上图是 DataX 的 AbstractContainer 的继承关系
 
 > 由于我们是单机版的，所以任务的拆分先创建 JobContainer ，然后再创建N个TaskGroupContainer。
@@ -40,7 +40,7 @@ writer的切分结果要参照reader的切分结果， 达到切分后数目相�
 > 下面的流程图：根据我的理解，梳理了一下。源码里面写的比较绕，我就直白化处理。
 > 
 
-![Alt text](images/datax_05_02.png)
+![Alt text](../images/datax_05_02.png)
 
 JobContainer 的 start 方法所作的事情
 
@@ -49,13 +49,13 @@ JobContainer 的 start 方法所作的事情
 > 在 DataX 中，可以自定义并发度，其中有 3 种粒度。分别是 <font color='green'>byte、Record、channel</font>。让我们仔细看看 DataX 是如何基于 3种粒度来获取最佳的 channel ，接下来，我们细看一下
 > 
 
-![Alt text](images/datax_05_03.png)
+![Alt text](../images/datax_05_03.png)
 ## **6、详解之Task任务数**
 
 > 下面这个流程图，是 Reader 的如何计算 Task 数量，而 Writer 的 Task 数量是跟 Reader 数量保持 1：1
 > 
 
-![Alt text](images/datax_05_04.png)
+![Alt text](../images/datax_05_04.png)
 
 ## **总结**
 

@@ -41,14 +41,14 @@ if __name__ == "__main__":
 > DataX 的 Java 入口就是 <font color='green'>Engine</font> 类，在这里可做的事情很多。比如 <font color='green'>mcn.json 任务</font>中的账号、密码是加密后的，我们需要在这里进行解密。Engine类主要的时序图如下：
 > 
 
-![datax_04_01](images/datax_04_01.png)
+![datax_04_01](../images/datax_04_01.png)
 DataX 之 Engine 启动主流程分析；如上图所示
 
 
-![datax_04_02](images/datax_04_02.png)
+![datax_04_02](../images/datax_04_02.png)
 DataX 出现配置项冲突的时候，优先使用 job 定义的。如上图红字所示
 
-![datax_04_03](images/datax_04_03.png)
+![datax_04_03](../images/datax_04_03.png)
 比如，我们可以在上图所示位置，进行<font color='green'>MySQL 账号&密码转换</font>。如图上所示
 
 # **QA:**

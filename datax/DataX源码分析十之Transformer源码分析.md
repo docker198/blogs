@@ -8,7 +8,7 @@
 
 ## **为啥需要Transformer**
 
-![Alt text](images/datax_10_01.png)
+![Alt text](../images/datax_10_01.png)
 简单的 ETL 模型视图
 
 - 在上一节中。我们说到 Transformer 在 ETL 链路里面，就是 数据转换的角色。比如，我们常见的账号、密码脱敏等等。
@@ -110,7 +110,7 @@ public abstract class ComplexTransformer {
     }
 ```
 
-![Alt text](images/datax_10_02.png)
+![Alt text](../images/datax_10_02.png)
 Transformer 封装，统一转换为 Complex 类型的 Transformer
 
 - 大家有没有发现，即使你是 Simple 类型的 Transformer，也会给你转换成 Proxy 类型的 Transformer。有点意思

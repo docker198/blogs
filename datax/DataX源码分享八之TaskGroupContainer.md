@@ -43,7 +43,7 @@ this.taskGroupContainer.start();
 
 ## **整体流程分析**
 
-![Alt text](images/datax_08_01.png)
+![Alt text](../images/datax_08_01.png)
 TaskGroup 对于 Task 的管理如上图所示
 
 ## **代码流程**

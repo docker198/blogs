@@ -15,7 +15,7 @@
 > DataX 是一款异构数据源离线同步工具，致力于实现包括关系型数据库(MySQL、Oracle等)、HDFS、Hive、ODPS、HBase、FTP等各种异构数据源之间稳定高效的数据同步功能。DataX 数据同步链路图如下：
 > 
 
-![Alt text](images/datax_01_01.png)
+![Alt text](../images/datax_01_01.png)
 
 DataX 的设计理念非常好。DataX将复杂的网状的同步链路变成了<font color='green'>星型数据链路</font>，
 DataX作为中间传输载体负责连接各种数据源。当需要接入一个新的数据源的时候，只需要将此数据源对接到DataX，便能跟已有的数据源做到无缝数据同步。
@@ -29,7 +29,7 @@ DataX作为中间传输载体负责连接各种数据源。当需要接入一个
 
 # **DataX 框架设计**
 
-![Alt text](images/datax_01_02.png)
+![Alt text](../images/datax_01_02.png)
 DataX 框架设计架构图
 
 DataX本身作为离线数据同步框架，采用<font color='green'>Framework + plugin</font>架构构建。将数据源读取和写入抽象成为Reader/Writer插件，纳入到整个同步框架中。
@@ -74,13 +74,13 @@ mvn -U clean package assembly:assembly -Dmaven.test.skip=true
 
 - 打包后的效果：
 
-![Alt text](images/datax_01_03.png)
+![Alt text](../images/datax_01_03.png)
 
 DataX 打包后的结果如上图所示
 
 - 执行DataX 看看
 
-![Alt text](images/datax_01_04.png)
+![Alt text](../images/datax_01_04.png)
 DataX 执行导数的效果图
 
 # **总结**

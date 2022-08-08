@@ -137,7 +137,7 @@ taskReader.startRead(recordSender);
 > 在 DataX 中，脏数据定义有很多种，如下图，就是脏数据应用的地方。
 > 
 
-![Alt text](images/datax_12_01.png)
+![Alt text](../images/datax_12_01.png)
 
 DataX 收集脏数据的方法入口
 

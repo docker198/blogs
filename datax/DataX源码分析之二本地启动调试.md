@@ -18,17 +18,17 @@
 启动 mode 和 jobid 都保持这个参数吧，因为<font color='green'>DataX开源版本是单机版</font>的。
 3. 最终配置效果如下图
 
-![Alt text](images/datax_02_01.png)
+![Alt text](../images/datax_02_01.png)
 IDEA 里面展示的最终配置如上图所示
 
 ## **还想配置更多参数**
 
-![Alt text](images/datax_02_02.png)
+![Alt text](../images/datax_02_02.png)
 DataX 任务启动入口，通过 python 脚本创建独立进程，拉起 DataX 导数任务
 
 ## **启动**
 
-![Alt text](images/datax_02_03.png)
+![Alt text](../images/datax_02_03.png)
 最终启动效果如上图所示。上面是 mcn.json 转换效果
 
 > <font color='green'>Configuration</font> 其实就是 DataX 启动导数任务的整个配置。若是本地启动的话，一定要细看配置是否正确喔

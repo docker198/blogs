@@ -27,14 +27,14 @@ CREATE TABLE `datax_version`(    `id`          bigint(11) unsigned NOT NULL AUTO
 
 # **DataX WEB 化流程图**
 
-![Alt text](images/datax_15_01.png)
+![Alt text](../images/datax_15_01.png)
 
 DataX WEB 服务化之路
 
 那我们的 WEB 服务已经将 DataX 从 OSS 上面下载了，如何拉起一个 DataX Job 任务呢？
 
 # **拉起DataX 任务**
-![Alt text](images/datax_15_02.png)
+![Alt text](../images/datax_15_02.png)
 
 执行 DataX 任 务
 

@@ -77,7 +77,7 @@ public enum PluginType {
 > 执行 mvn -U clean package assembly:assembly -Dmaven.test.skip=true 命令后，打包效果如下图所示：
 > 
 
-![Alt text](images/datax_07_01.png)
+![Alt text](../images/datax_07_01.png)
 
 DataX 插件打包后，如上图所示
 

@@ -14,7 +14,7 @@ com.alibaba.datax.core.job.JobContainer#schedule
 
 # **计算公式**
 
-![Alt text](images/datax_06_01.png)
+![Alt text](../images/datax_06_01.png)
 DataX TaskGroup 计算规则
 
 ```java
@@ -28,7 +28,7 @@ DataX TaskGroup 计算规则
 
 # **TaskGroup 调度过程**
 
-![Alt text](images/datax_06_02.png)
+![Alt text](../images/datax_06_02.png)
 JobContainer 中的 schedule 方法
 
 # **重点的代码**
