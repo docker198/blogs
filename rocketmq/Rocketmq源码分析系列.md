@@ -5,3 +5,5 @@
  [RocketMQ源码分析二之更新Topic命令.md](RocketMQ源码分析二之更新Topic命令.md) 
  
   [RocketMQ源码分析三之删除Topic.md](RocketMQ源码分析三之删除Topic.md) 
+  
+  [RocketMQ源码分析四之获取Topic信息.md](RocketMQ源码分析四之获取Topic信息.md) 
