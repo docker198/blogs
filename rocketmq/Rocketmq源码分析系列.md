@@ -16,4 +16,6 @@
   
   [RocketMQ源码分析八之删除ConsumerGroup.md](RocketMQ源码分析八之删除ConsumerGroup.md) 
   
+  [RocketMQ源码分析十之NameServer.md](RocketMQ源码分析十之NameServer.md) 
+  
   
