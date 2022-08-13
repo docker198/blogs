@@ -20,6 +20,8 @@
   
   [RocketMQ源码分析十一之发送消息原理.md](RocketMQ源码分析十一之发送消息原理.md) 
   
-  [RocketMQ源码分析十二之发送顺序消息.md](RocketMQ源码分析十二之发送顺序消息.md) 
+  [RocketMQ源码分析十二之发送顺序消息.md](RocketMQ源码分析十二之发送顺序消息.md)
+  
+  [RocketMQ源码分析十三之延时消息原理分析.md](RocketMQ源码分析十三之延时消息原理分析.md) 
   
   
