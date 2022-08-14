@@ -2,7 +2,7 @@
 
 继前几篇文章：
 
-[RocketMQ源码分析十四之心跳处理.md](RocketMQ源码分析十四之心跳处理.md)
+[RocketMQ源码分析十四之心跳处理.md](RocketMQ源码分析之十四心跳处理.md)
 
 
 

@@ -3,7 +3,7 @@
 
 继前几篇文章：
 
-[RocketMQ源码分析十之NameServer.md](RocketMQ源码分析十之NameServer.md)
+[RocketMQ源码分析十之NameServer.md](RocketMQ源码分析之十NameServer.md)
 
 
 # 命令参数

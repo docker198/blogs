@@ -2,7 +2,7 @@
 > 本章节，我们主要分析 RocketMQ Producer 如何发送<font color='green'>顺序消息</font>及其内部原理。
 
 
-[RocketMQ源码分析十一之发送消息原理.md](RocketMQ源码分析十一之发送消息原理.md)
+[RocketMQ源码分析十一之发送消息原理.md](RocketMQ源码分析之十一发送消息原理.md)
 
 # 例子
 

@@ -2,7 +2,7 @@
 >让我们看看 RocketMQ 是如何支持延迟消息的吧！
 
 继续前几篇文章：
-[RocketMQ源码分析十一之发送消息原理.md](RocketMQ源码分析十一之发送消息原理.md)
+[RocketMQ源码分析十一之发送消息原理.md](RocketMQ源码分析之十一发送消息原理.md)
 
 # 例子
 

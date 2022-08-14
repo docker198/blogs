@@ -1,7 +1,7 @@
 > 上一章中。我们分析了 RocketMQ 创建 Topic 的命令过程。本章，我们开始分析 获取 Topic 路由信息的源码过程。
 
 继上一篇：
-[RocketMQ源码分析三之删除Topic.md](RocketMQ源码分析三之删除Topic.md) 
+[RocketMQ源码分析三之删除Topic.md](RocketMQ源码分析之三删除Topic.md) 
 
 # 命令参数
 

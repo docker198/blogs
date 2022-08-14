@@ -3,9 +3,9 @@
 
 #继上一篇文章：
 
-[RocketMQ源码分析二之更新Topic命令.md](RocketMQ源码分析二之更新Topic命令.md)
+[RocketMQ源码分析二之更新Topic命令.md](RocketMQ源码分析之二更新Topic命令.md)
 
-[RocketMQ源码分析四之获取Topic信息.md](RocketMQ源码分析四之获取Topic信息.md)
+[RocketMQ源码分析四之获取Topic信息.md](RocketMQ源码分析之四获取Topic信息.md)
 
 # 更新Topic权限用处
 

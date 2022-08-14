@@ -3,9 +3,9 @@
 
 # 需要先预热前面的文章：
 
-[RocketMQ源码分析七之创建ConsumerGroup.md](RocketMQ源码分析七之创建ConsumerGroup.md)
+[RocketMQ源码分析七之创建ConsumerGroup.md](RocketMQ源码分析之七创建ConsumerGroup.md)
 
-[RocketMQ源码分析三之删除Topic.md](RocketMQ源码分析三之删除Topic.md)
+[RocketMQ源码分析三之删除Topic.md](RocketMQ源码分析之三删除Topic.md)
 
 # 命令参数
 

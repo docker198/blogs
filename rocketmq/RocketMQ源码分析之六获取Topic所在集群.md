@@ -5,7 +5,7 @@
 # 继上N篇文章：
 [RocketMQ源码分析之一概念理解](RocketMQ源码分析之一概念理解.md)
 
-[RocketMQ源码分析二之更新Topic命令.md](RocketMQ源码分析二之更新Topic命令.md)
+[RocketMQ源码分析二之更新Topic命令.md](RocketMQ源码分析之二更新Topic命令.md)
 
 
 
