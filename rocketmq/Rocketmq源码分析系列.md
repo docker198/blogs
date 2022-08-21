@@ -39,5 +39,7 @@
   [RocketMQ源码分析之二十批量发送消息原理及疑问.md](RocketMQ源码分析之二十批量发送消息原理及疑问.md) 
   
   [RocketMQ源码分析之二一定时消息机制.md](RocketMQ源码分析之二一定时消息机制.md) 
+  
+  [RocketMQ源码分析之二二主从复制原理.md](RocketMQ源码分析之二二主从复制原理.md) 
       
   
