@@ -43,6 +43,8 @@
   [RocketMQ源码分析之二二主从复制原理.md](RocketMQ源码分析之二二主从复制原理.md) 
   
   
-   [RocketMQ源码分析之二四根据MsgId查询消息.md](RocketMQ源码分析之二四根据MsgId查询消息.md) 
+  [RocketMQ源码分析之二四根据MsgId查询消息.md](RocketMQ源码分析之二四根据MsgId查询消息.md) 
+   
+  [RocketMQ源码分析之二五删除过期文件.md](RocketMQ源码分析之二五删除过期文件.md) 
       
   
